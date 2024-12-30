@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grad-countaner{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px ;
+    gap: 20px;
+}
+
+.grid-item{
+    background-color: red;
+    color: white;
+    font-size: 3em;
+}
